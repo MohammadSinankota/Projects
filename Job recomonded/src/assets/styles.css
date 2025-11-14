@@ -1,0 +1,85 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #2c3e50;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #34495e;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
